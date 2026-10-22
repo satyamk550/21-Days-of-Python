@@ -65,9 +65,3 @@ The goal isn't just to finish 21 days. It's to build a stronger foundation for f
 
 **One day at a time. One concept at a time. Keep building.** 🚀
 
-👩‍💻 Author
-satyam kumar
-B.Tech Student
-
-GitHub: https://github.com/satyamk550
-LinkdeIn: https://www.linkedin.com/in/satyamkumar-dev/
