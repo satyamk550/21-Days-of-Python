@@ -4,30 +4,61 @@
 
 Welcome to my **21 Days of Python Challenge**, a hands-on coding journey focused on strengthening my Python fundamentals, improving problem-solving skills, and building practical projects along the way.
 
-This repository serves as a record of my learning, daily coding practice, experiments, and progress as I explore Python.
+This repository documents my learning journey through Python programs, experiments, and mini-projects, with a focus on understanding concepts by implementing them.
 
 ## 🎯 Challenge Goals
 
 - Strengthen my understanding of Python fundamentals.
 - Improve logical thinking and problem-solving skills.
-- Practice writing clean, readable, and reusable code.
-- Explore Python libraries and useful programming concepts.
-- Build practical projects with increasing complexity.
-- Develop consistency through daily coding.
+- Practice writing clean, readable, and maintainable code.
+- Explore useful Python libraries and programming concepts.
+- Build practical projects with gradually increasing complexity.
+- Develop consistency through regular coding practice.
 
 ## 📅 21-Day Progress Tracker
 
 | Day | Focus | Status |
 |:---:|---|:---:|
-| Day 01 | | |
+| Day 01 | Choose Your Own Adventure Game | 🚧 In Progress |
+| Day 02 | Coming Soon | ⬜ Not Started |
+| Day 03 | Coming Soon | ⬜ Not Started |
+| Day 04 | Coming Soon | ⬜ Not Started |
+| Day 05 | Coming Soon | ⬜ Not Started |
+| Day 06 | Coming Soon | ⬜ Not Started |
+| Day 07 | Coming Soon | ⬜ Not Started |
+| Day 08–21 | Upcoming Projects & Practice | ⬜ Not Started |
 
-*The tracker is a roadmap, not a claim that these topics or days have been completed. I'll update it as I progress.*
+*The tracker reflects my current progress and will be updated as I complete each day's work.*
+
+## 🚀 Projects
+
+### 01. Choose Your Own Adventure Game 🐉
+
+A text-based adventure game built with Python where players explore a mysterious forest, make decisions, navigate different paths, and face a dragon's riddle challenge.
+
+**Concepts practiced:**
+- Variables and strings
+- `print()` and `input()`
+- String concatenation
+- Conditional statements (`if`, `elif`, `else`)
+- Nested conditionals
+- String methods (`.lower()` and `.strip()`)
+- Basic score and lives tracking
+
+**Run the project:**
+
+```bash
+cd 01-choose-your-own-adventure
+python main.py
+```
+
+[View the project folder](./01-choose-your-own-adventure/)
 
 ## 🛠️ Tech Stack
 
 - **Language:** Python 3
-- **Editor:** Visual Studio Code
-- **Version Control:** Git & GitHub
+- **Code Editor:** Visual Studio Code
+- **Version Control:** Git and GitHub
 
 ## 📂 Repository Structure
 
@@ -35,33 +66,40 @@ This repository serves as a record of my learning, daily coding practice, experi
 21-Days-of-Python/
 │
 ├── README.md
-├── Day-01/
-├── Day-02/
-├── Day-03/
-├── ...
-├── Day-21/
+├── requirements.txt
 │
-└── Projects/
+├── 01-choose-your-own-adventure/
+│   ├── main.py
+│   └── README.md
+│
+└── Upcoming mini-projects...
 ```
 
-Each day's folder will contain the relevant Python programs, exercises, and experiments. The `Projects` directory will organize standalone projects developed during the challenge.
+Each project has its own folder to keep the source code, documentation, and related files organized. The root README serves as the main index for the challenge.
 
-## 📌 Challenge Rules
+## 📌 Challenge Principles
 
-- Code consistently and track progress honestly.
 - Understand the logic instead of blindly memorizing syntax.
+- Write and test code independently before looking for solutions.
 - Experiment with different approaches to solve problems.
-- Keep programs organized and improve code readability.
-- Learn from mistakes and revisit concepts when necessary.
-- Document meaningful progress throughout the challenge.
+- Keep projects organized and code readable.
+- Learn from errors and revisit concepts when necessary.
+- Document progress honestly as the challenge evolves.
 
-## 🌱 Progress & Learning
+## 🌱 What's Next?
 
-This repository will evolve throughout the challenge. New programs, experiments, and projects will be added as I learn, practice, and improve.
+As I progress through the challenge, I plan to explore more Python concepts, build additional mini-projects, and gradually work toward practical applications in automation, data analysis, and AI/ML.
 
-The goal isn't just to finish 21 days. It's to build a stronger foundation for future work in software development, automation, and AI/ML.
+The goal isn't just to finish 21 days. It's to build a stronger programming foundation through consistent, hands-on practice.
 
 ---
 
 **One day at a time. One concept at a time. Keep building.** 🚀
 
+## 👨‍💻 Author
+
+**Satyam Kumar**  
+B.Tech Student
+
+- **GitHub:** [@satyamk550](https://github.com/satyamk550)
+- **LinkedIn:** [Satyam Kumar](https://www.linkedin.com/in/satyamkumar-dev/)
