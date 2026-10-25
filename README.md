@@ -17,10 +17,14 @@ This repository documents my learning journey through Python programs, experimen
 
 ## 📅 21-Day Progress Tracker
 
+**Progress: 1 / 21 days completed** `█░░░░░░░░░░░░░░░░░░░░`
+
+**Legend:** ✅ Completed · 🚧 In Progress · ⬜ Not Started
+
 | Day | Focus | Status |
 |:---:|---|:---:|
-| Day 01 | Choose Your Own Adventure Game | 🚧 In Progress |
-| Day 02 | Coming Soon | ⬜ Not Started |
+| Day 01 | [Choose Your Own Adventure Game](./01-choose-your-own-adventure/) | ✅ Completed |
+| Day 02 | [Text Based Calculator](./02-text-based-calculator/) | 🚧 In Progress |
 | Day 03 | Coming Soon | ⬜ Not Started |
 | Day 04 | Coming Soon | ⬜ Not Started |
 | Day 05 | Coming Soon | ⬜ Not Started |
@@ -32,7 +36,7 @@ This repository documents my learning journey through Python programs, experimen
 
 ## 🚀 Projects
 
-### 01. Choose Your Own Adventure Game 🐉
+### 01. Choose Your Own Adventure Game 🐉 ✅
 
 A text-based adventure game built with Python where players explore a mysterious forest, make decisions, navigate different paths, and face a dragon's riddle challenge.
 
@@ -54,6 +58,21 @@ python main.py
 
 [View the project folder](./01-choose-your-own-adventure/)
 
+### 02. Text Based Calculator 🧮 🚧
+
+A command-line calculator built with Python that takes input from the user, performs calculations, and displays the result in the terminal.
+
+*Currently in progress. Features and concepts practiced will be added here once the project is complete.*
+
+**Run the project:**
+
+```bash
+cd 02-text-based-calculator
+python main.py
+```
+
+[View the project folder](./02-text-based-calculator/)
+
 ## 🛠️ Tech Stack
 
 - **Language:** Python 3
@@ -69,6 +88,10 @@ python main.py
 ├── requirements.txt
 │
 ├── 01-choose-your-own-adventure/
+│   ├── main.py
+│   └── README.md
+│
+├── 02-text-based-calculator/
 │   ├── main.py
 │   └── README.md
 │
