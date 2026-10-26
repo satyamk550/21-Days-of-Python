@@ -1,5 +1,5 @@
 
-name = input("Enter your name: ")
+name = input("Enter your name human: ")
 
 print("\nWelcome to the Adventure Game, " + name + "!")
 print("You are in the lost forest of the Dark Woods.")
@@ -106,7 +106,7 @@ elif decision == "cave of dragons":
 else:
     print("\nInvalid path! Please choose one of the given options.")
 
-print("\n========== GAME SUMMARY ==========")
+print("\nGAME SUMMARY ")
 print("Player:", name)
 print("Score:", score)
 print("Lives remaining:", lives)
