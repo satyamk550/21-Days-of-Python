@@ -1,69 +1,113 @@
 # 📇 Contact Management System
 
-A simple, menu-driven **Contact Management System built with Python**. This project is part of my **21 Days of Python** learning journey and focuses on managing contact information using fundamental Python concepts.
+A simple, menu-driven **Contact Management System built with Python**. This project is part of my **21 Days of Python** learning journey, where I practice Python concepts by building small, practical applications.
+
+The application allows users to add, search, and delete contacts while storing contact information in a JSON file for persistence between program executions.
 
 ## ✨ Features
 
-- **Add Contacts:** Store contact details such as name, age, and email.
-- **Search Contacts:** Find contacts using a name or other available information.
-- **Delete Contacts:** Remove existing contacts from the collection.
-- **Display Contacts:** View saved contacts.
-- **Menu-Driven Interface:** Navigate through different operations using user input.
+- **Add Contacts:** Store contact details, including name, age, and email.
+- **Search Contacts:** Find contacts by name, with case-insensitive matching.
+- **Delete Contacts:** Display available contacts and remove a selected contact by its number.
+- **Persistent Storage:** Save contact information in a `contact.json` file.
+- **Load Existing Contacts:** Automatically load previously saved contacts when the application starts.
+- **Error Handling:** Handle invalid contact numbers, invalid JSON data, and file access errors during saving.
+- **Menu-Driven Interface:** Perform operations using simple terminal commands.
+- **Organized File Paths:** Use Python's `os` module to save the JSON file in the project directory rather than relying on the current working directory.
 
 ## 🛠️ Concepts Practiced
 
-- **Lists:** Store and manage collections of contact information.
-- **For Loops:** Iterate through lists and process contact records.
-- **Functions:** Organize code into reusable functions, such as `add_person()` and `search()`.
-- **Conditional Statements:** Use `if`, `elif`, and `else` to handle menu options.
-- **Searching:** Search for matching records using loops and the `in` operator.
-- **List Methods:** Use methods such as `.append()` to add items dynamically.
-- **Data Management:** Maintain contact information while the program runs.
+- **Functions:** Organize the program into reusable functions such as `add_person()`, `delete_person()`, `search_person()`, `save_contacts()`, and `load_contacts()`.
+- **Lists and Dictionaries:** Store multiple contacts as dictionaries inside a list.
+- **Loops:** Use `while` loops for the menu and input validation, and `for` loops to display and search contacts.
+- **Conditional Statements:** Use `if`, `elif`, and `else` to handle user choices and search results.
+- **List Methods:** Use `.append()` to add contacts and `.pop()` to delete contacts.
+- **List Comprehensions:** Filter contacts by name during searches.
+- **Exception Handling:** Use `try` and `except` to handle invalid numeric input, malformed JSON, and file-writing errors.
+- **JSON Module:** Use `json.load()` to read stored data and `json.dump()` to write contact information to a JSON file.
+- **File Handling:** Use `open()` with read and write modes to load and save data.
+- **OS Module:** Use `os.path.exists()`, `os.path.abspath()`, `os.path.dirname()`, and `os.path.join()` to check file existence and construct reliable file paths.
+- **Path Management:** Use `__file__` to locate the Python script and keep the data file in the same directory.
+- **Data Persistence:** Preserve contacts between program executions by storing them in a file.
 
 ## 💻 Technologies Used
 
-- Python 3
+- **Python 3**
+- **JSON** for local data storage
+- **Git and GitHub** for version control and project sharing
+- **Visual Studio Code** as the development environment
 
 ## ▶️ How to Run
 
-1. Make sure Python 3 is installed on your system.
-2. Clone this repository:
+### 1. Make sure Python is installed
 
-   ```bash
-   git clone https://github.com/satyamk550/21-Days-Python.git
-   ```
+Install Python 3 if it isn't already installed.
 
-3. Navigate to the project directory:
+Check your installation:
 
-   ```bash
-   cd 21-Days-Python/03-contact-management-application
-   ```
+```bash
+python --version
+```
 
-4. Run the program:
+### 2. Clone the repository
 
-   ```bash
-   python main.py
-   ```
+```bash
+git clone https://github.com/satyamk550/21-Days-of-Python.git
+```
+
+### 3. Navigate to the project directory
+
+```bash
+cd 21-Days-of-Python/03-contact-management-application
+```
+
+### 4. Run the application
+
+```bash
+python main.py
+```
+
+### 5. Use the menu
+
+Choose one of the available commands:
+
+```text
+add
+delete
+search
+exit
+```
+
+The application saves contacts to `contact.json` in the same directory as `main.py`.
+
+If the JSON file doesn't exist, the application starts with an empty contact list. The file is created when the application saves the contacts.
 
 ## 📂 Project Structure
 
 ```text
 03-contact-management-application/
 ├── main.py
+├── contact.json
 └── README.md
 ```
 
+**Note:** `contact.json` is generated by the application and stores contact data locally. If it contains real personal information, keep it out of a public GitHub repository.
+
 ## 🎯 Learning Objective
 
-The goal of this project is to strengthen my understanding of Python fundamentals by building a practical application that uses lists, loops, functions, conditional statements, and basic searching techniques.
+The objective of this project is to strengthen my Python fundamentals through hands-on development. It helped me understand how to organize code with functions, manipulate lists and dictionaries, search and delete records, handle exceptions, and work with files to preserve data.
+
+A key learning outcome was understanding how the current working directory differs from the location of a Python script, and how to use `__file__` and `os.path` to save data to the correct project directory.
 
 ## 🔮 Future Improvements
 
-- Store contacts permanently using file handling or a database.
-- Add input validation for email addresses and phone numbers.
+- Add input validation for names, ages, and email addresses.
+- Implement an option to update existing contacts.
 - Prevent duplicate contacts.
-- Implement more flexible search functionality.
-- Add a graphical user interface.
+- Support partial-name searches.
+- Add phone numbers and additional contact fields.
+- Improve the interface with a graphical user interface.
+- Explore SQLite for structured database storage.
 
 ## 👨‍💻 Author
 
@@ -73,4 +117,4 @@ GitHub: [@satyamk550](https://github.com/satyamk550)
 
 ---
 
-*Part of my 21 Days of Python learning journey.*
+*Part of my 21 Days of Python learning journey. Building small projects, learning by doing, and improving one step at a time.*
