@@ -17,16 +17,18 @@ This repository documents my learning journey through Python programs, experimen
 
 ## 📅 21-Day Progress Tracker
 
-**Progress: 1 / 21 days completed** `█░░░░░░░░░░░░░░░░░░░░`
+**Progress: 3 / 21 days completed**
+
+`███░░░░░░░░░░░░░░░░░░░░`
 
 **Legend:** ✅ Completed · 🚧 In Progress · ⬜ Not Started
 
-| Day | Focus | Status |
+| Day | Project | Status |
 |:---:|---|:---:|
 | Day 01 | [Choose Your Own Adventure Game](./01-choose-your-own-adventure/) | ✅ Completed |
-| Day 02 | [Text Based Calculator](./02-text-based-calculator/) | 🚧 In Progress |
-| Day 03 | Coming Soon | ⬜ Not Started |
-| Day 04 | Coming Soon | ⬜ Not Started |
+| Day 02 | [Text Based Calculator](./02-text-based-calculator/) | ✅ Completed |
+| Day 03 | [Contact Management Application](./03-contact-management-application/) | ✅ Completed |
+| Day 04 | Upcoming Project | 🚧 In Progress |
 | Day 05 | Coming Soon | ⬜ Not Started |
 | Day 06 | Coming Soon | ⬜ Not Started |
 | Day 07 | Coming Soon | ⬜ Not Started |
@@ -56,13 +58,23 @@ cd 01-choose-your-own-adventure
 python main.py
 ```
 
-[View the project folder](./01-choose-your-own-adventure/)
+[View Project Folder](./01-choose-your-own-adventure/)
 
-### 02. Text Based Calculator 🧮 🚧
+---
 
-A command-line calculator built with Python that takes input from the user, performs calculations, and displays the result in the terminal.
+### 02. Text Based Calculator 🧮 ✅
 
-*Currently in progress. Features and concepts practiced will be added here once the project is complete.*
+A command-line calculator built with Python that accepts user input, performs mathematical operations, and displays the results in the terminal.
+
+**Concepts practiced:**
+- Variables and data types
+- User input and output
+- Type conversion
+- Functions
+- Exception handling (`try` and `except`)
+- Conditional statements
+- Arithmetic operators
+- Input validation
 
 **Run the project:**
 
@@ -71,7 +83,38 @@ cd 02-text-based-calculator
 python main.py
 ```
 
-[View the project folder](./02-text-based-calculator/)
+[View Project Folder](./02-text-based-calculator/)
+
+---
+
+### 03. Contact Management Application 📒 ✅
+
+A Python-based contact management application that allows users to manage contact information through a simple interface.
+
+**Concepts practiced:**
+- Python functions
+- Lists and dictionaries
+- Loops and conditional statements
+- User input handling
+- CRUD operations (Create, Read, Update, Delete)
+- Data management and organization
+
+**Run the project:**
+
+```bash
+cd 03-contact-management-application
+python main.py
+```
+
+[View Project Folder](./03-contact-management-application/)
+
+---
+
+### 04. Upcoming Project 🚧
+
+Currently working on the fourth project of the challenge.
+
+Project details, concepts, and implementation will be documented here once completed.
 
 ## 🛠️ Tech Stack
 
@@ -95,10 +138,18 @@ python main.py
 │   ├── main.py
 │   └── README.md
 │
+├── 03-contact-management-application/
+│   ├── main.py
+│   └── README.md
+│
+├── 04-upcoming-project/
+│   ├── main.py
+│   └── README.md
+│
 └── Upcoming mini-projects...
 ```
 
-Each project has its own folder to keep the source code, documentation, and related files organized. The root README serves as the main index for the challenge.
+Each project has its own folder to keep source code, documentation, and related files organized. The root README serves as the main index for the challenge.
 
 ## 📌 Challenge Principles
 
@@ -111,7 +162,7 @@ Each project has its own folder to keep the source code, documentation, and rela
 
 ## 🌱 What's Next?
 
-As I progress through the challenge, I plan to explore more Python concepts, build additional mini-projects, and gradually work toward practical applications in automation, data analysis, and AI/ML.
+As I progress through this challenge, I plan to explore more Python concepts, build additional mini-projects, and gradually work toward practical applications in automation, data analysis, and AI/ML.
 
 The goal isn't just to finish 21 days. It's to build a stronger programming foundation through consistent, hands-on practice.
 
