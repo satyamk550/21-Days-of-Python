@@ -17,9 +17,9 @@ This repository documents my learning journey through Python programs, experimen
 
 ## 📅 21-Day Progress Tracker
 
-**Progress: 3 / 21 days completed**
+**Progress: 5 / 21 days completed**
 
-`███░░░░░░░░░░░░░░░░░░░░`
+`█████░░░░░░░░░░░░░░░░`
 
 **Legend:** ✅ Completed · 🚧 In Progress · ⬜ Not Started
 
@@ -28,21 +28,22 @@ This repository documents my learning journey through Python programs, experimen
 | Day 01 | [Choose Your Own Adventure Game](./01-choose-your-own-adventure/) | ✅ Completed |
 | Day 02 | [Text Based Calculator](./02-text-based-calculator/) | ✅ Completed |
 | Day 03 | [Contact Management Application](./03-contact-management-application/) | ✅ Completed |
-| Day 04 | Upcoming Project | 🚧 In Progress |
-| Day 05 | Coming Soon | ⬜ Not Started |
+| Day 04 | [Tic Tac Toe Game](./04-tic-tac-toe/) | ✅ Completed |
+| Day 05 | [Random Quiz Generator and Grader](./05-Random-quiz-generator-and-grader/) | ✅ Completed |
 | Day 06 | Coming Soon | ⬜ Not Started |
 | Day 07 | Coming Soon | ⬜ Not Started |
 | Day 08–21 | Upcoming Projects & Practice | ⬜ Not Started |
 
-*The tracker reflects my current progress and will be updated as I complete each day's work.*
+*The tracker reflects my current progress and will be updated as I complete each project's work.*
 
 ## 🚀 Projects
 
-### 01. Choose Your Own Adventure Game 🐉 ✅
+### 01. Choose Your Own Adventure Game 🐉
 
 A text-based adventure game built with Python where players explore a mysterious forest, make decisions, navigate different paths, and face a dragon's riddle challenge.
 
 **Concepts practiced:**
+
 - Variables and strings
 - `print()` and `input()`
 - String concatenation
@@ -62,11 +63,12 @@ python main.py
 
 ---
 
-### 02. Text Based Calculator 🧮 ✅
+### 02. Text Based Calculator 🧮
 
 A command-line calculator built with Python that accepts user input, performs mathematical operations, and displays the results in the terminal.
 
 **Concepts practiced:**
+
 - Variables and data types
 - User input and output
 - Type conversion
@@ -87,11 +89,12 @@ python main.py
 
 ---
 
-### 03. Contact Management Application 📒 ✅
+### 03. Contact Management Application 📒
 
 A Python-based contact management application that allows users to manage contact information through a simple interface.
 
 **Concepts practiced:**
+
 - Python functions
 - Lists and dictionaries
 - Loops and conditional statements
@@ -110,17 +113,82 @@ python main.py
 
 ---
 
-### 04. Upcoming Project 🚧
+### 04. Tic Tac Toe Game ❌⭕ 
 
-Currently working on the fourth project of the challenge.
+A command-line Tic Tac Toe game built using Python where two players take turns marking spaces on a 3×3 game board. The game checks for winning combinations and detects draw conditions.
 
-Project details, concepts, and implementation will be documented here once completed.
+**Concepts practiced:**
+
+- Python functions
+- Lists and nested lists
+- Two-dimensional lists
+- Loops and conditional statements
+- User input handling
+- Game logic and turn management
+- Input validation
+- Checking winning conditions
+- Detecting draw conditions
+
+**Run the project:**
+
+```bash
+cd 04-tic-tac-toe
+python main.py
+```
+
+[View Project Folder](./04-tic-tac-toe/)
+
+---
+
+### 05. Random Quiz Generator and Grader 🧠
+
+A command-line quiz application built using Python. The program randomly selects questions from a JSON question bank, presents them to the user, evaluates their answers, and calculates the final score.
+
+The project also introduces tracking the time taken to complete the quiz.
+
+**Concepts practiced:**
+
+- Python functions
+- Working with JSON files
+- File handling
+- Importing and using Python modules
+- Random question selection using `random`
+- Lists and dictionaries
+- Loops and conditional statements
+- Automatic answer evaluation
+- Score calculation
+- Time tracking
+
+**Project structure:**
+
+```text
+05-Random-quiz-generator-and-grader/
+│
+├── main.py
+├── questions.json
+└── README.md
+```
+
+**Run the project:**
+
+```bash
+cd 05-Random-quiz-generator-and-grader
+python main.py
+```
+
+[View Project Folder](./05-Random-quiz-generator-and-grader/)
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Language:** Python 3
-- **Code Editor:** Visual Studio Code
-- **Version Control:** Git and GitHub
+| Tool | Purpose |
+|---|---|
+| Python 3 | Programming language |
+| VS Code | Code editor |
+| Git | Version control |
+| GitHub | Code hosting and project documentation |
+| JSON | Structured data storage |
 
 ## 📂 Repository Structure
 
@@ -142,8 +210,13 @@ Project details, concepts, and implementation will be documented here once compl
 │   ├── main.py
 │   └── README.md
 │
-├── 04-upcoming-project/
+├── 04-tic-tac-toe/
 │   ├── main.py
+│   └── README.md
+│
+├── 05-Random-quiz-generator-and-grader/
+│   ├── main.py
+│   ├── questions.json
 │   └── README.md
 │
 └── Upcoming mini-projects...
@@ -162,7 +235,14 @@ Each project has its own folder to keep source code, documentation, and related 
 
 ## 🌱 What's Next?
 
-As I progress through this challenge, I plan to explore more Python concepts, build additional mini-projects, and gradually work toward practical applications in automation, data analysis, and AI/ML.
+As I progress through this challenge, I plan to explore more Python concepts, build additional mini-projects, and gradually work toward practical applications in:
+
+- File handling and automation
+- Object-Oriented Programming (OOP)
+- Working with databases and SQLite
+- APIs and external libraries
+- Data analysis and manipulation
+- AI/ML fundamentals
 
 The goal isn't just to finish 21 days. It's to build a stronger programming foundation through consistent, hands-on practice.
 
