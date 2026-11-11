@@ -30,7 +30,7 @@ This repository documents my learning journey through Python programs, experimen
 | Day 03 | [Contact Management Application](./03-contact-management-application/) | ✅ Completed |
 | Day 04 | [Tic Tac Toe Game](./04-tic-tac-toe/) | ✅ Completed |
 | Day 05 | [Random Quiz Generator and Grader](./05-Random-quiz-generator-and-grader/) | ✅ Completed |
-| Day 06 | Coming Soon | ⬜ Not Started |
+| Day 06 | SQLite-Powered Todo | ⬜ Not Started |
 | Day 07 | Coming Soon | ⬜ Not Started |
 | Day 08–21 | Upcoming Projects & Practice | ⬜ Not Started |
 
